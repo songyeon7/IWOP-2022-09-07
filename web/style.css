@@ -1,6 +1,45 @@
+@font-face {
+  font-family: 'SUIT-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   padding: 0;
   margin: 0;
+  font-family: SUIT-Medium;
+}
+
+.header{
+  position: sticky;
+  top:0;
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  height:70px;
+  background:#36afff;
+  box-shadow:0px 4px 20px rgba(96, 96, 96, 0.25);
+  z-index:5;
+}
+
+.IWOP{
+  width: 150px;
+  margin-inline:80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.top{
+  flex-direction: row;
+  align-items:center;
+  justify-content:space-between;
+}
+
+body {
+  background-image: url(image/IWOP\ 4.svg);
+  background-repeat: space;
+  background-attachment: scroll;
+  background-position: center center;
 }
 
 .main {
@@ -9,11 +48,11 @@
 }
 
 .box {
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.18);
-  background: #50586c;
+  background: #36afff;
   margin: 10px;
   padding: 20px;
 }
@@ -31,7 +70,7 @@
 }
 .content {
   width: 100%;
-  height: 200px;
+  height: 100px;
   margin: 10px 0px;
 
   color: #dce2f0;
@@ -49,7 +88,7 @@ input {
   width: 100%;
   height: 100%;
   border: 0;
-  background: #50586c;
+  background: #36afff;
   display: inline;
 
   text-align: center;
